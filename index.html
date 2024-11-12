@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo FCFS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Algoritmo de Planificación FCFS</h1>
+
+    <label for="numProcesos">Ingrese el número de procesos:</label>
+    <input type="number" id="numProcesos" min="1" required>
+    <button onclick="generarTablaInput()">Generar Tabla de Entrada</button>
+
+    <div id="tablaInput"></div>
+    <div id="tablaResultados"></div>
+    <div id="ganttChart"></div>
+
+    <button onclick="reiniciarPagina()">Reiniciar</button>
+
+    <script src="fcfs.js"></script>
+</body>
+
+</html>

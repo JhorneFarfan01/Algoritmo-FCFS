@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type="number"] {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el diagrama de Gantt */
+.gantt-chart {
+    margin-top: 20px;
+}
+
+.timeline, .processes {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.time {
+    min-width: 20px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+    left: -5px;
+}
+
+/* Bloques de procesos en el diagrama de Gantt */
+.gantt-block {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    position: relative;
+}
+
+/* Colores para cada proceso */
+.gantt-block.p1 { background-color: #FFD700; }  /* Amarillo */
+.gantt-block.p2 { background-color: #00BFFF; }  /* Azul claro */
+.gantt-block.p3 { background-color: #FF69B4; }  /* Rosa */
+.gantt-block.p4 { background-color: #9370DB; }  /* Morado */
+.gantt-block.p5 { background-color: #32CD32; }  /* Verde */
+
+/* Estilo para la sección de promedios */
+.promedios {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.promedios p {
+    margin: 5px 0;
+}
